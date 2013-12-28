@@ -1,10 +1,10 @@
 {
   "name": "context-eval",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "JavaScript code execution context for the browser and wrapper around node vm module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/"
   },
   "keywords": [
     "context",
@@ -22,8 +22,6 @@
     "karma-html2js-preprocessor": "~0.1.0",
     "karma-jasmine": "~0.1.5",
     "karma-coffee-preprocessor": "~0.1.2",
-    "requirejs": "~2.1.9",
-    "karma-requirejs": "~0.2.1",
     "karma-phantomjs-launcher": "~0.1.1",
     "karma": "~0.10.8",
     "karma-mocha": "~0.1.1",
