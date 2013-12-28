@@ -28,7 +28,7 @@ test in browsers:
 
 Evaluates code and returns result.
 
-## Context#destory()
+## Context#destroy()
 
 Does nothing in node but removes iframe in browser.
 
