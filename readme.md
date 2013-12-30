@@ -20,9 +20,10 @@ test in browsers:
     karma start
 
 
-## new Context(sandbox)
+## new Context(sandbox, parentElement)
 
-`sandbox` is an object that would be shallowly copied into the execution context.
+`sandbox` (optional) is an object that would be shallowly copied into the execution context.
+`parentElement` (optional) is an element where the iframe can appended to, defautls to `body`.
 
 ## Context#evaluate(code)
 

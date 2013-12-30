@@ -1,6 +1,6 @@
 {
   "name": "context-eval",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript code execution context for the browser and wrapper around node vm module",
   "main": "index.js",
   "scripts": {
