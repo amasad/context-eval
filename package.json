@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "JavaScript code execution context for the browser and wrapper around node vm module",
   "main": "index.js",
+  "browser": "./lib/context-browser.js",
   "scripts": {
     "test": "mocha tests/"
   },

@@ -33,6 +33,13 @@ Evaluates code and returns result.
 
 Does nothing in node but removes iframe in browser.
 
+## Context#extend(obj)
+
+Extend the global object with `obj`
+
+## Context#getGlobal()
+
+Returns the global object
 
 ### License
 
